@@ -4,7 +4,7 @@
 }
 .menu-bar{
     min-height: 8%;
-    background: chocolate;
+    background: yellowgreen;
 }
 
 .menu-bar img{
@@ -16,11 +16,11 @@
 }
 
 .nav-link:hover{
-    color: Black;
+    color: white;
 }
 
 .active{
-    color: black;
+    color: white;
 }
 
 .navbar-toggler .fas{
@@ -53,7 +53,7 @@
 .container1{
     background-image: url("../media/bg-image.jpg");
     background-repeat: no-repeat;
-    background-color: #cccccc;
+    background-color: white;
     /*background-color: transparent;*/
     /*display: flex;*/
     /*flex-wrap: wrap;*/
@@ -104,5 +104,5 @@
 
 .container-1{
     background-image: url("../media/bg-image.jpg");
-    height: 610px;
+    height: 700px;
 }
