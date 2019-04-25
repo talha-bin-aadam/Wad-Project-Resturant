@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    paddding:0px;
+}
+.backimg{
+
+    background-image: url('Foodyoulove.jpg');
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    height: 185vh;
+    width:100%;
+}
+.menu{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+.rightmenu{
+    height: 100px;
+    width: 70%;
+    float:right;
+}
+.rightmenu ul{
+    margin-left: 300px;
+}
+.rightmenu ul li{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 30px;
+}
+.rightmenu ul li:hover{
+
+    color:orange;
+}
+.text {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+.text h1{
+    margin-top: 35px;
+    margin-bottom: 50px;
+    font-size: xx-large;
+    color: orange;
+     text-align: center;
+    font-weight: bold;
+}
