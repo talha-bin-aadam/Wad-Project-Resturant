@@ -82,9 +82,11 @@
 }
 
 .ss-row-1{
-    text-align: center;
+    /*text-align: center;*/
     color: white;
-    margin-bottom: 15px;
+    /*padding-left: 150px;*/
+    /*margin-top: 300px;*/
+    /*margin-bottom: 15px;*/
 }
 
 .ss-row-2{
@@ -92,7 +94,7 @@
 }
 
 .button-1{
-    margin-right: 15px;
+    /*margin-right: 15px;*/
     padding: 10px 15px 10px 15px;
     background-color: chocolate;
     color: white;
@@ -100,7 +102,7 @@
 }
 
 .button-2{
-    margin-left: 15px;
+    /*margin-left: 15px;*/
     padding: 10px 15px 10px 15px;
     background-color: chocolate;
     color: white;
@@ -117,11 +119,11 @@
     /*background-size: contain;*/
     background-repeat: no-repeat;
     background-size: 100%;
-    /*
-    padding-top: 200px;
-    padding-bottom: 300px;
-    */
-    padding: 200px 500px 300px 0px;
+    /*height: auto;*/
+    /*height: auto;*/
+    /*padding-top: 200px;*/
+    /*padding-bottom: 300px;*/
+    /*padding: 200px 0px 0px 0px;*/
 }
 
 .special-content{
