@@ -112,7 +112,6 @@
 }
 
 .slide-show{
-    background-image: url('foody.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -197,7 +196,7 @@
     font-size: 18px;
 }
 .btn{
-    display: inline-blockblock;
+    display: inline-block;
     background: orange;
     color: white;
     text-transform: uppercase;
