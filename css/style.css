@@ -112,7 +112,6 @@
 }
 
 .slide-show{
-    background-image: url("../media/bg-image.jpg");
     /*height: 610px;*/
     /*background-size: contain;*/
     background-repeat: no-repeat;
@@ -206,3 +205,28 @@ select option:hover{
      text-align: center;
      font-weight: lighter;
  }
+.menu h1{
+    margin-top: 35px;
+    margin-bottom: 50px;
+    font-size: xx-large;
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+.menu h2{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-size: small;
+    text-align: center;
+    font-weight: lighter;
+}
+.video {
+    margin-top: 10px;
+}
+.desc h2{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-size: small;
+    text-align: center;
+    font-weight: lighter;
+}
