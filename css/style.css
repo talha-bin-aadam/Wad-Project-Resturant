@@ -144,3 +144,38 @@
     color: white;
     margin-top: 50px;
 }
+
+.table-select{
+    height: auto;
+    padding-top: 30px;
+}
+
+.width-set{
+    width: 100%;
+}
+
+/*
+select option:hover{
+    background-color: chocolate;
+}
+*/
+
+.button-table{
+    background-color: chocolate;
+    color: white;
+}
+
+.button-table:hover{
+    color: black;
+}
+
+.table-heading{
+    background-color: chocolate;
+    color: white;
+}
+
+.table-content{
+    text-align: center;
+    margin-top: 20px;
+}
+
