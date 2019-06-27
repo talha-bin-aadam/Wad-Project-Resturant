@@ -54,10 +54,10 @@
 /*    background-image: url("../media/bg-image.jpg");*/
 /*    background-repeat: no-repeat;*/
 /*    background-color: #cccccc;*/
-    /*background-color: transparent;*/
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-    /*justify-content: center;*/
+/*background-color: transparent;*/
+/*display: flex;*/
+/*flex-wrap: wrap;*/
+/*justify-content: center;*/
 /*}*/
 
 /*.container img{*/
@@ -119,13 +119,12 @@
     background-image: url("../media/bg-image.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    /*width: 100%;*/
-    /*height: auto;*/
-    /*height: auto;*/
-    /*height: auto;*/
-    /*padding-top: 200px;*/
-    /*padding-bottom: 300px;*/
-    /*padding: 200px 0px 0px 0px;*/
+    width: 100%;
+    height: auto;
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    padding: 200px 0px 0px 0px;
 }
 
 .special-content{
@@ -205,38 +204,62 @@ select option:hover{
     /*font-weight: bold;*/
 }
 .text p{
-     margin-top: 20px;
-     margin-bottom: 50px;
-     font-size: large;
-     text-align: center;
-     /*font-weight: lighter;*/
- }
-.menu h1{
-    margin-top: 35px;
+    margin-top: 20px;
     margin-bottom: 50px;
-    /*font-size: xx-large;*/
-    color: chocolate;
+    font-size: large;
     text-align: center;
-    font-weight: bold;
+    /*font-weight: lighter;*/
 }
-.menu h6{
-    margin-top: 35px;
-    margin-bottom: 40px;
-    /*font-size: small;*/
+.menu{
+    widt:70%;
+    margin:auto;
+    overflow: hidden;
+    margin-top: 1%;
+}
+.menu h1{
+    color: #1b1e21;
+    font-family: cursive;
     text-align: center;
-    font-weight: lighter;
+}
+.menu h3{
+    color: #1b1e21;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.category{
+    color: #1b1e21;
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+}
+img {
+    width: 78%;
+    border-radius: 50%;
+}
+.snacks,.grill{
+    padding-left:1rem ;
 }
 .video {
     margin-top: 10px;
 }
-.desc h2{
-    margin-top: 35px;
-    margin-bottom: 40px;
-    font-size: small;
+.desc h1{
     text-align: center;
-    font-weight: lighter;
+    color: #1b1e21;
+    margin-top: 5%;
+    display: flex;
+    font-family: cursive;
 }
-
+h4{
+    margin-left: 1.5rem;
+    margin:3%;
+}
+.btn{
+    background: gold;
+    padding: 1rem;
+    border: none;
+    margin-left: 45%;
+}
 body{
     font-family: 'Merriweather', serif;
 }
