@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
 }
+.bckimg{
+    background-image: url("../media/bg-image.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
 .menu-bar{
     min-height: 8%;
-    background: chocolate;
+    background-color: chocolate;
 }
 
 .menu-bar img{
@@ -16,7 +21,7 @@
 }
 
 .nav-link:hover{
-    color: Black;
+    color: white;
 }
 
 .active{
@@ -208,6 +213,7 @@ select option:hover{
     margin-bottom: 50px;
     font-size: large;
     text-align: center;
+    color: white;
     /*font-weight: lighter;*/
 }
 .menu{
@@ -260,6 +266,35 @@ h4{
     border: none;
     margin-left: 45%;
 }
+.btn-dark{
+    display: inline-block;
+    background-color: #212121;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 100px;
+    letter-spacing: 2px;
+}
+.btn-dark:hover{
+    background-color: white;
+    color: #f4511e;
+}
+.hero_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+}
+.hero_text{
+    color: #fff;
+    text-align: center;
+}
+.hero_text h1{
+    font-size: 100px;
+    font-weight: 500;
+}
 body{
     font-family: 'Merriweather', serif;
+
 }

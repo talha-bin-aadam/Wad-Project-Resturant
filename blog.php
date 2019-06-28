@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <title>Blog</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body>
+<div class="bckimg">
 <div class="menu-bar">
+
     <!--    <div class="container">-->
     <nav class="navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-expand-sm">
-        <a class="navbar-brand" href="index.html"><img src="media/logo.png" style="width: 200px"></a>
+        <a class="navbar-brand" href="index.php"><img src="media/logo.png" style="width: 200px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <!--        <span class="navbar-toggler-icon"></span>-->
             <i class="fas fa-bars"></i>
@@ -19,63 +21,41 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto text-right">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home </a>
+                    <a class="nav-link active" href="index.php">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="menu.html">Menu</a>
+                    <a class="nav-link" href="menu.php">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="table.html">Book a Table</a>
+                    <a class="nav-link" href="table.php">Book a Table</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link" href="blog.php">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.php">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!--    </div>-->
 </div>
-<div class="row">
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
-        <h1>Contact Us:</h1>
-        <i class="far fa-envelope"></i> Email:
-        <p> foodfactory@ff.com.pk</p>
-        <i class="fas fa-phone"></i> phone:
-        <p> 0333-0478220 <br> 0316-4664268 </p>
-        <i class="fas fa-map-marker-alt"></i> Address:
-        <p> <b>FOOD FACTORY</b>, liberty market, main gulbarg, lahore</p>
-
-        <h1>Send a Message:</h1>
-        <form>
-            First Name:
-            <input type="text" name="First Name" value="" placeholder="First Name" pattern="[A-Za-z]+">
-            <br><br>Last Name:
-            <input type="text" name="Last Name" value="" placeholder="Last Name" pattern="[A-Za-z]+">
-            <br><br>Email:
-            <input type="text" name="Email" value="" placeholder="Email" pattern="(\w+(\.|\+|-)?)+@\w+(\.\w+)+">
-            <br><br>Message:
-            <textarea></textarea>
-            <br><br><input type="submit" value="Send">
-        </form>
+    <div class = "hero_section">
+        <div class="hero_text">
+            <h1>Food Blog</h1>
+            <a href="#" class="btn-dark">Read Recipe</a>
+        </div>
     </div>
-    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9" id="map">
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzLCW6NjBSbxBc8NXxDGhE6_JASyvjwns&callback=initMap"
-                type="text/javascript"></script>
-    </div>
-</div>
 
 <div style="height: 400px"></div>
 
 <div class="row container-fluid footer">
     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
         <h1> About Us </h1>
-        <a href="index.html"><img src="media/logo.png" style="width: 200px"></a>
+        <a href="index.php"><img src="media/logo.png" style="width: 200px"></a>
         <p> © 2019 developed by <b>Talha Bin Adam</b> and <b>Zeeshan Sabir</b>. All Rights Reserved.</p>
     </div>
     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
@@ -83,22 +63,22 @@
         <div>
             <ul style="list-style-type: none">
                 <li>
-                    <a class="nav-link active" href="index.html">Home </a>
+                    <a class="nav-link active" href="index.php">Home </a>
                 </li>
                 <li>
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="menu.html">Menu</a>
+                    <a class="nav-link" href="menu.php">Menu</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="table.html">Book a Table</a>
+                    <a class="nav-link" href="table.php">Book a Table</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link" href="blog.php">Blog</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.php">Contact</a>
                 </li>
             </ul>
         </div>
@@ -127,7 +107,8 @@
         <p> <b>FOOD FACTORY</b>, liberty market, main gulbarg, lahore</p>
     </div>
 </div>
-<script src="js/contact.js"></script>
+</div>
+</body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
