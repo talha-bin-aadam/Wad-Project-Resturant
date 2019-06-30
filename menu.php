@@ -1,8 +1,13 @@
 <!DOCTYPE html>
+
+<?php
+require "server/functions.php";
+?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Menu</title>
+    <title>menu</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
@@ -24,7 +29,7 @@
                     <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Menuu.html">Menu</a>
+                    <a class="nav-link" href="menu.php">menu</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="table.php">Book a Table</a>
@@ -40,6 +45,28 @@
     </nav>
     <!--    </div>-->
 </div>
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <ul class="list-unstyled components">
+            <li class="active">
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle nav-link">
+                    <i class="fas fa-sitemap"></i>
+                    Categories
+                </a>
+                <ul class="collapse show list-unstyled" id="homeSubmenu">
+                    <?php getCats(); ?>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <article id="content" class="container-fluid bg-white">
+        <div class="row">
+            <?php getitems(); ?>
+        </div>
+    </article>
+</div>
+
 <div class ="menu">
     <h1> Food taste better when you eat with your family</h1>
     <h3>veg,non-veg and all kind of snacks are available</h3>
@@ -77,7 +104,6 @@
     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/sg9H2x00wyg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 </div>
 
-<div style="height: 400px"></div>
 
 <div class="row container-fluid footer">
     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
@@ -96,7 +122,7 @@
                     <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="Menuu.html">Menu</a>
+                    <a class="nav-link" href="menu.php">menu</a>
                 </li>
                 <li>
                     <a class="nav-link" href="table.php">Book a Table</a>

@@ -46,7 +46,7 @@
 <!--    </div>-->
 </div>
 <div class="slide-show col-xl-12 col-lg-12 col-md-12 col-sm-12">
-    <div style="height: 200px"></div>
+<!--    <div style="height: 200px"></div>-->
     <div class="row">
         <div class="col-xl-3 col-lg-2 col-md-1"></div>
         <div class="ss-row-1 col-xl-9 col-lg-10 col-md-11 col-sm-12">
